@@ -1,89 +1,104 @@
 <html>
 <head>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <title>Personal Web - Rosi Rahmawati</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa; /* background lembut */
+      color: #333;
+      text-align: center;
+    }
 
-        img {
-            width: 150px;   
-            height: 150px;
-            border-radius: 50%; 
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px 0;
+      border: 3px solid #0066cc;
+    }
 
-        table {
-            border-collapse: collapse;
-            width: 50%;
-            text-align: center;
-            margin-bottom: 20px; 
-        }
+    h1 {
+      margin: 10px 0 5px 0;
+      color: #0066cc;
+    }
+    h2 {
+      margin: 5px 0;
+      font-size: 18px;
+      font-weight: normal;
+      color: #444;
+    }
+    p.info {
+      margin: 5px 0;
+      font-size: 16px;
+      color: #555;
+    }
 
-        td {
-            padding: 10px;
-        }
+    .social-icons {
+      margin: 20px 0;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .social-icons img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #fff;
+      padding: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .social-icons img:hover {
+      transform: scale(1.2);
+      background: #eee;
+    }
 
-        a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-        }
-
-        .instagram-icon {
-            width: 40px;
-            height: 40px;
-        }
-    </style>
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+    .datetime {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
 
-    <img src="WhatsApp Image 2025-09-27 at 12.45.35_0c480598.jpg" alt="Foto Profil">
+  <img src="WhatsApp Image 2025-09-27 at 12.45.35_0c480598.jpg" alt="Foto Profil" class="profile-pic">
 
-    <table border="3">
-        <tr>
-          <td>Nama</td>
-          <td>:</td>
-          <td>Rosi Rahmawati</td>
-        </tr>
-        <tr>
-          <td>NIM</td>
-          <td>:</td>
-          <td><b>102022400314</b></td>
-        </tr>
-        <tr>
-          <td>Fakultas</td>
-          <td>:</td>
-          <td><i>Rekayasa Industri</i></td>
-        </tr>
-        <tr>
-          <td>Prodi</td>
-          <td>:</td>
-          <td><u>S1 Sistem Informasi</u></td>
-        </tr>
-        <tr>
-          <td>Angkatan</td>
-          <td>:</td>
-          <td>2024</td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <a href="https://github.com/rosirahmawati" target="_self"> GitHub </a> - 
-            <a href="https://telkomuniversity.ac.id" target="_blank">Telkom University</a>
-          </td>
-        </tr>
-    </table>
+  <h1>Rosi Rahmawati</h1>
+  <h2> S1 Sistem Informasi</h2>
+  <p class="info">Fakultas Rekayasa Industri - Telkom University</p>
+  <p class="info">Angkatan 2024</p>
 
-    <a href="https://www.instagram.com/rosirhmwt" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" 
-             alt="Instagram" class="instagram-icon">
+  <div class="social-icons">
+    <a href="https://rosirahmawati.github.io" target="_self">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
     </a>
+    <a href="https://www.instagram.com/rosirhmwt" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+    </a>
+    <a href="https://telkomuniversity.ac.id" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/726/726496.png" alt="Telkom University">
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2025 Rosi Rahmawati | Dibuat dengan HTML & CSS</p>
+    <p class="datetime">Tanggal: 27 September 2025 | Time: 12:00 WIB</p>
+  </footer>
 
 </body>
 </html>
